@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Data Validation</title>
+    </head>
+    <body>
+        <h4>Please Participate Auction</h4>
+        <img width="100px" height="100px" src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQA1R0nC9b25cy2Jz1TOWVn76oNNLang-4JZKxs689rG8HgEuym3RVrJAHiv3rFiS4xPPAPqiaFCYFRLWEXEldUXHQWUMedsGerIqWFA-FeG92g-NC5dTMD&usqp=CAc" alt="">
+        <form action="/bid">
+            <div>
+                User Name: &nbsp;&nbsp;&nbsp; 
+                <input type="text" 
+                       required 
+                       minlength="6" 
+                       maxlength="8"/>
+            </div>
+            <div>
+                Estimate Price: 
+                <input type="number" 
+                       required 
+                       min="2000" 
+                       max="20000"/>
+            </div>
+            <input type="submit" value="Bid" />
+        </form>
+    </body>
+</html>
