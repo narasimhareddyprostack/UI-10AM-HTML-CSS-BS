@@ -1,0 +1,14 @@
+h1{
+    background-color: red;
+    color: white;
+    align-content: center;
+}
+h2,p{
+    background-color: green;
+}
+.sr{
+    background-color: blue;
+}
+#uday{
+    background-color: yellow;
+}
