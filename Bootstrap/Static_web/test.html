@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vehicle Entry Form</title>
+</head>
+<body>
+
+<h3>Vehicle Details Form</h3>
+
+<form action="#" method="post">
+
+  <!-- Mobile Number -->
+  <label>Mobile Number:</label><br>
+  <input type="text" 
+         name="mobile"
+         placeholder="Enter mobile number"
+         pattern="^[6-9][0-9]{9}$"
+         title="Enter valid 10-digit Indian mobile number starting with 6-9"
+         required>
+  <br><br>
+
+  <!-- Karnataka Vehicle Number -->
+  <label>Vehicle Number:</label><br>
+  <input type="text"
+         name="vehicle"
+         placeholder="KA01AB1234"
+         pattern="^KA[0-9]{2}[A-Z]{1,2}[0-9]{4}$"
+         title="Format: KA01AB1234"
+         required>
+  <br><br>
+
+  <!-- Submit Button -->
+  <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
